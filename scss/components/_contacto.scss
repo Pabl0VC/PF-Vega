@@ -1,0 +1,39 @@
+@import '../base/variables';
+#contacto{
+    .container-fluid{
+        margin-bottom: 70px;
+        h1{
+            font-family: $font-titulos;
+            font-size: $font-size-titulos;
+        }
+        p{
+            font-size: $font-size-contenido;
+            font-family: $font-contenido;
+        }
+        .animaciones-contacto:hover{
+            transform:scale(1.5);
+            transition:all 0.7s ;
+        }
+        .input-contacto{
+            font-size: $font-size-contenido;
+            font-family: $font-contenido;
+            .form-control:focus{
+                outline: $bg-verde 4px solid;
+                border: 0;
+            }
+        }
+        button{
+            font-size: $font-size-contenido;
+            font-family: $font-contenido;
+            background-color: $bg-gris ;
+            color: $bg-verde;
+            &:hover{
+                transform:scale(1.02);
+                transition:all 0.5s ;
+                background-color: lighten($color:$bg-verde, $amount: 1%);
+                color: white;
+            }
+        }
+    }
+    
+}

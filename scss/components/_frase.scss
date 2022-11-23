@@ -1,0 +1,17 @@
+#frase{
+    .container-fluid{
+        background-color:$bg-verde;
+        border-radius: $border-contenedores;
+        padding: 100px 0px;
+        h2{
+            font-style: italic;
+            font-family: $font-titulos;
+            font-size: 30px;
+            color: lighten($color:$bg-verde, $amount: 50%);
+        }
+        p{
+            font-style: normal;
+            font-size: 100px;
+        }
+    }
+}

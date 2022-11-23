@@ -1,0 +1,9 @@
+@import '../base/variables';
+#footer{
+    background-color: $bg-verde;
+    p{
+        font-size: $font-size-contenido;
+        font-family: $font-contenido;
+        color: rgba(white, 0.5);
+    }
+}

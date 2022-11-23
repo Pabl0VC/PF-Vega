@@ -1,0 +1,29 @@
+@import '../base/variables';
+
+#navegador{
+    a {
+        color:black;
+        transition: all 1s ease-in-out;
+        position: relative;
+        font-family: $font-titulos;
+        font-size:20px;
+        margin: 10px;
+        &::before {
+            content: attr(data-item);
+            transition: all 1s ease-in-out;
+            color: lighten($color:$bg-verde, $amount: 10%);
+            position: absolute;
+            width:0;
+            overflow: hidden;
+            text-decoration:overline;
+        }
+    
+        &:hover {
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+    
+
+}

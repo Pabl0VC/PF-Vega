@@ -1,0 +1,20 @@
+@import '../base/variables';
+/* Contenedores "Acerca" y "Proyectos */
+.contenedores{
+    background-color:$bg-verde;
+    border-radius: $border-contenedores;
+    .contenedor-interior{
+        background-color: $bg-gris ;
+        border-radius: $border-contenedores;
+            h1{
+                font-family:$font-titulos;
+                font-size: $font-size-titulos;
+            }
+            p{
+                font-size: $font-size-contenido;
+                font-family: $font-contenido;
+            }
+    }
+        
+}
+

@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8fffc;
+}
+
+/* Contenedores "Acerca" y "Proyectos */
+.contenedores {
+  background-color: #345B48;
+  border-radius: 10px;
+}
+.contenedores .contenedor-interior {
+  background-color: #DADFE5;
+  border-radius: 10px;
+}
+.contenedores .contenedor-interior h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.contenedores .contenedor-interior p {
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+}
+
+#navegador a {
+  color: black;
+  transition: all 1s ease-in-out;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+#navegador a::before {
+  content: attr(data-item);
+  transition: all 1s ease-in-out;
+  color: #477b62;
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  text-decoration: overline;
+}
+#navegador a:hover::before {
+  width: 100%;
+}
+
+.animaciones:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+#skills h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+#frase .container-fluid {
+  background-color: #345B48;
+  border-radius: 10px;
+  padding: 100px 0px;
+}
+#frase .container-fluid h2 {
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #b8d6c7;
+}
+#frase .container-fluid p {
+  font-style: normal;
+  font-size: 100px;
+}
+
+#contacto .container-fluid {
+  margin-bottom: 70px;
+}
+#contacto .container-fluid h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+#contacto .container-fluid p {
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+}
+#contacto .container-fluid .animaciones-contacto:hover {
+  transform: scale(1.5);
+  transition: all 0.7s;
+}
+#contacto .container-fluid .input-contacto {
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+}
+#contacto .container-fluid .input-contacto .form-control:focus {
+  outline: #345B48 4px solid;
+  border: 0;
+}
+#contacto .container-fluid button {
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+  background-color: #DADFE5;
+  color: #345B48;
+}
+#contacto .container-fluid button:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+  background-color: #365e4b;
+  color: white;
+}
+
+#footer {
+  background-color: #345B48;
+}
+#footer p {
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */
