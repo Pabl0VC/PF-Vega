@@ -1,11 +1,21 @@
 <h1 align="center">Hi 👋, I'm Pablo</h1>
 <h3 align="center">Soy Desarrollador Full Stack</h3>
 
-- 👨‍💻 Puedes ver mis proyectos en mi portafolio [https://portfolio-pablovega.000webhostapp.com/](https://portfolio-pablovega.000webhostapp.com/)
+
+<p>
+Aquí presento el código creado para mi Proyecto Final del Curso de Desarrollo Web de Coderhouse, donde creo mi portafolio personal. 
+Utilizo todos los lenguajes y herramientas aprendidas en clases como HTML, CSS, SASS, Bootstrap 5, posicionamiento SEO y subida a servidor.
+</p>
+
+<p>
+👨‍💻 Puedes ver mis proyectos en mi
+<a href="https://portfolio-pablovega.000webhostapp.com/" target="_blank">portafolio<a>
+</p>
+<!-- Puedes ver mis proyectos en mi portafolio [https://portfolio-pablovega.000webhostapp.com/](https://portfolio-pablovega.000webhostapp.com/) -->
 
 <h3 align="left">Puedes conectar conmigo en:</h3>
 <p align="left">
-<a href="http://www.linkedin.com/in/pablo-vega-castro" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="http://www.linkedin.com/in/pablo-vega-castro" height="30" width="40" /></a>
+<a href="http://www.linkedin.com/in/pablo-vega-castro" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="http://www.linkedin.com/in/pablo-vega-castro" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languajes:</h3>
